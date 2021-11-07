@@ -1,0 +1,115 @@
+text{
+  color: rgb(250, 250, 250);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+.crhm{
+  width: 4%;
+  height: 75%;
+  margin-top: 1px;
+
+}
+.ch{
+  width: 2%;
+
+
+
+}
+.form-center {
+  position: absolute !important;
+  left: 50%;
+  
+  width: 40%;
+  height: 70%;
+  margin-top: 3px;
+}
+.navbar {
+    background-color: 	#3c5c91;
+    border-color: grey;
+    border-bottom-width: 1px;
+    height: 55px;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px #999;
+    z-index: 3;
+
+  } 
+
+  .menu-bars {
+    margin-left: 1rem;
+    font-size: 2rem;
+    background: none;
+  }
+
+  .nav-menu {
+    background-color: 		#a5abbd;
+    width: 230px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -30%;
+    margin-left: -1rem;
+    transition: 850ms;
+    z-index: 3;
+    box-shadow: 2px 0 6px 1px #999;
+  }
+  .nav-menu.in-active{
+    width: 80px;
+  }
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 3px 0px 3px 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: 	#8e4555;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: 	#c67786;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: 		#a5abbd;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
