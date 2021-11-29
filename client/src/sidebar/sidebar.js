@@ -43,7 +43,7 @@ export const SidebarData = [
   },
   {
     title: 'Virtual Meetings',
-    path: 'https://app.virtualdojo.it/',
+    path: '/',
     icon: <IoIcons.IoMdAnalytics />,
     cName: 'nav-text'
   },
