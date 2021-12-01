@@ -69,7 +69,6 @@ function Navbar() {
           <img src = {crhm} className="crhm" alt="crhm"></img>
       <span style ={{ marginRight: '30%'}}></span>
      
-      <a href='https://jiit-meet-video.herokuapp.com/' target="_blank" ><Button style={{color:'white'}}>Call</Button></a><span></span>
 
  
       <Toolbar className={classes.toolbar}>
@@ -117,4 +116,6 @@ export default Navbar;
 <a href='http://localhost:3000/' target="_blank" ><Button style={{color:'white'}}>Virtual Meeting</Button></a><span></span>
 <Link to='/stage'  style={{textDecoration:'none'}}><Button  style={{color:'white'}}>Stage</Button></Link><span></span>
 */ /*    <a href='https://teacheasy5.herokuapp.com/' target="_blank" ><Button style={{color:'white'}}>Join</Button></a><span></span>
+*/
+      /*<a href='https://jiit-meet-video.herokuapp.com/' target="_blank" ><Button style={{color:'white'}}>Call</Button></a><span></span>
 */
