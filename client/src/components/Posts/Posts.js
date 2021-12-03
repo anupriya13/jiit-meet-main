@@ -33,18 +33,18 @@ const Posts = ({setCurrentId}) => {
    </Button>
    <span></span><span>
      </span> 
-   <Button variant="contained" href="#contained-buttons">
+   <Button variant="contained" href="https://react-google-calendar-clone.netlify.app/" target="_blank">
   Calendar
    </Button>
    </div>
    <br/>
    <div>
-   <Button variant="contained" href="#contained-buttons">
+   <Button variant="contained" href="#contained-buttons" target="_blank">
   CGPA Predictor
    </Button>
    <span></span><span>
      </span> 
-   <Button variant="contained" href="#contained-buttons">
+   <Button variant="contained" href="#contained-buttons" target="_blank">
   General Polls 
    </Button>
    </div>
