@@ -6,65 +6,50 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
   {
-    title: 'College',
+    title: 'Meetings',
     path: '/',
-    icon: <AiIcons.AiOutlineCodeSandbox/>,
+    icon: <RiIcons.RiContactsFill/>,
     cName: 'nav-text',
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
     
       {
-        title: 'Timetable',
+        title: 'Calls',
         path: '/',
-        icon: <RiIcons.RiPieChart2Fill/>
+        icon: <RiIcons.RiVideoAddFill/>
       },
       {
-        title: 'Exams',
+        title: 'Chats',
         path: '/',
-        icon: <RiIcons.RiPieChart2Fill/>
-      },
-      {
-        title: 'Classroom',
-        path: '/',
-        icon: <RiIcons.RiPieChart2Fill/>
-      },
-      {
-        title: 'Events',
-        path: '/',
-        icon: <RiIcons.RiPieChart2Fill/>
-      },
-      {
-        title: 'Conference',
-        path: '/',
-        icon: <RiIcons.RiPieChart2Fill/>
+        icon: <RiIcons.RiMessage2Fill/>
       }
     ]
   },
   {
-    title: 'Virtual Meetings',
+    title: 'Scheduler',
     path: '/',
-    icon: <IoIcons.IoMdAnalytics />,
+    icon: <IoIcons.IoMdTimer/>,
     cName: 'nav-text'
   },
  
   {
-    title: 'Search',
+    title: 'Calendar',
     path: '/',
-    icon: <FaIcons.FaSearch />,
+    icon: <FaIcons.FaCalendar />,
     cName: 'nav-text'
   },
   
   {
-    title: 'Alerts',
+    title: 'CGPA Predictor',
     path: '/',
-    icon: <IoIcons.IoMdAlert/>,
+    icon: <FaIcons.FaCalculator/>,
     cName: 'nav-text'
   },
   {
-    title: 'Analytics',
+    title: 'Polls',
     path: '/',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FaIcons.FaPoll />,
     cName: 'nav-text'
   },
   

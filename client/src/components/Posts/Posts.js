@@ -2,6 +2,7 @@ import React,{useState, useEffect} from 'react';
 import { Grid, CircularProgress } from '@material-ui/core';
 import Post from './Post/Post';
 import decode from 'jwt-decode';
+import img1 from '../../images/jiit meet.jpg';
 import { useSelector } from 'react-redux';
 import useStyles from './styles';
 import { Button } from '@material-ui/core';
@@ -10,15 +11,17 @@ const Posts = ({setCurrentId}) => {
     const posts = useSelector((state) => state.posts);
     const classes = useStyles();
     const [user,setUser] = useState(JSON.parse(localStorage.getItem('profile')));
-    console.log(posts);
-    
+    //console.log(posts);
+    console.log(img1);
     return (
       <div>
       <br></br><br></br><br></br><br></br>
+      <span style={{"margin-left": "70%"}}></span><img src={img1} alt="Logo" />
       {user ? (
         <div>
       <h1>Hi {user.result.name},</h1>
       <h1>Welcome!</h1>
+     
       <h2>Below are main features available:</h2>
       <div>
       <Button variant="contained" href="https://jiit-meet-video.herokuapp.com/"  target="_blank">
@@ -50,6 +53,8 @@ const Posts = ({setCurrentId}) => {
       (
       <h1> Please Sign in </h1>)
       }
+      
+      <br></br><br></br><br></br><br></br>
       </div>
        /* !posts.length ? <CircularProgress /> : (
             <Grid className={classes.container} container alignItems="stretch" spacing={3}>

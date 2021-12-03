@@ -67,7 +67,7 @@ function Navbar() {
           <text >JIIT Meet</text></Link>
           <span></span>
           <img src = {crhm} className="crhm" alt="crhm"></img>
-      <span style ={{ marginRight: '30%'}}></span>
+      <span style ={{ marginRight: '40%'}}></span>
      
 
  
