@@ -3,6 +3,9 @@ import { Grid, CircularProgress } from '@material-ui/core';
 import Post from './Post/Post';
 import decode from 'jwt-decode';
 import img1 from '../../images/jiit meet.jpg';
+import img2 from '../../images/oat.jpg';
+import img3 from '../../images/m.png';
+import img4 from '../../images/n.png';
 import { useSelector } from 'react-redux';
 import useStyles from './styles';
 import { Button } from '@material-ui/core';
@@ -16,7 +19,11 @@ const Posts = ({setCurrentId}) => {
     return (
       <div>
       <br></br><br></br><br></br><br></br>
-      <span style={{"margin-left": "70%"}}></span><img src={img1} alt="Logo" />
+      <div>
+     <img height="30%" src={img4} alt="Logo" /> 
+      <img src={img3} alt="Logo" />
+      </div>
+     
       {user ? (
         <div>
       <h1>Hi {user.result.name},</h1>
@@ -39,8 +46,8 @@ const Posts = ({setCurrentId}) => {
    </div>
    <br/>
    <div>
-   <Button variant="contained" href="#contained-buttons" target="_blank">
-  CGPA Predictor
+   <Button variant="contained" href="https://cgpaforecaster.vercel.app/" target="_blank">
+  CGPA Calculator
    </Button>
    <span></span><span>
      </span> 
@@ -53,7 +60,8 @@ const Posts = ({setCurrentId}) => {
       (
       <h1> Please Sign in </h1>)
       }
-      
+      <br></br>
+       <img src={img2} alt="Logo" style={{"width":"160%"}}/>
       <br></br><br></br><br></br><br></br>
       </div>
        /* !posts.length ? <CircularProgress /> : (
