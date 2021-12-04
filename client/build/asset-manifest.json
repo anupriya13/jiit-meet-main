@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e889e6de.chunk.css",
+    "main.js": "/static/js/main.3edc3072.chunk.js",
+    "main.js.map": "/static/js/main.3edc3072.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
+    "static/js/2.908e9980.chunk.js": "/static/js/2.908e9980.chunk.js",
+    "static/js/2.908e9980.chunk.js.map": "/static/js/2.908e9980.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e889e6de.chunk.css.map": "/static/css/main.e889e6de.chunk.css.map",
+    "static/js/2.908e9980.chunk.js.LICENSE.txt": "/static/js/2.908e9980.chunk.js.LICENSE.txt",
+    "static/media/jiit meet.2ab818ae.jpg": "/static/media/jiit meet.2ab818ae.jpg",
+    "static/media/lll.250e68a9.png": "/static/media/lll.250e68a9.png",
+    "static/media/n.13886d0c.png": "/static/media/n.13886d0c.png",
+    "static/media/oat.b817cf2b.jpg": "/static/media/oat.b817cf2b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c012fedc.js",
+    "static/js/2.908e9980.chunk.js",
+    "static/css/main.e889e6de.chunk.css",
+    "static/js/main.3edc3072.chunk.js"
+  ]
+}
